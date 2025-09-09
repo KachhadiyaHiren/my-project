@@ -1,0 +1,26 @@
+# Development dependencies
+
+# Testing
+pytest>=7.2.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+pytest-asyncio>=0.20.0
+pytest-xdist>=3.1.0
+
+# Code quality
+black>=22.12.0
+isort>=5.11.0
+flake8>=6.0.0
+mypy>=0.991
+bandit>=1.7.4
+
+# Documentation
+sphinx>=5.3.0
+sphinx-rtd-theme>=1.2.0
+
+# Pre-commit hooks
+pre-commit>=2.21.0
+
+# Build tools
+build>=0.10.0
+twine>=4.0.0

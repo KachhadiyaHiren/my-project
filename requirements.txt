@@ -1,0 +1,24 @@
+# Core dependencies for the task management system
+
+# Type hints and validation
+typing-extensions>=4.4.0
+pydantic>=1.10.0
+
+# Date and time handling
+python-dateutil>=2.8.2
+
+# JSON handling and serialization
+jsonschema>=4.17.0
+
+# Logging and monitoring
+structlog>=22.3.0
+
+# Configuration management
+python-dotenv>=0.19.0
+
+# Database (if needed for production)
+sqlalchemy>=1.4.0
+
+# Web framework (for API if needed)
+fastapi>=0.88.0
+uvicorn>=0.20.0
